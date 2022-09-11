@@ -1,0 +1,12 @@
+patient attributes:
+gender, dob, zone, address
+
+zones: id, name, governerate
+branches: id, name, governerate
+branch_zone: branch_id, zone_id
+
+request has an additional: branch_id, created_by
+
+chat_history (chat invloves sending attachment)
+
+notification (alert)
